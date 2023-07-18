@@ -3019,11 +3019,12 @@ html.no-csstransitions .home-content__main {
 .contact-email {
   display: inline-block;
   font-family: "metropolis-light", sans-serif;
-  font-size: 5.4rem;
+  font-size: 5rem;
   line-height: 1.222;
   color: #ffffff;
   padding-top: 3.6rem;
   position: relative;
+  word-break: break-all;
 }
 .contact-email::before {
   content: "";
